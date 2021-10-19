@@ -1,0 +1,181 @@
+* {
+    background-color: #EBEBEB;
+    font-family: "arial";
+    grid-gap: 10px;
+}
+
+body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 2fr;
+    grid-template-rows: 60px auto auto;
+}
+
+.header, .svtHead, .logo, h2, h1, p, .right {
+    background-color: white;
+}
+
+.header, .main, .left{
+    border-style: solid;
+    border-width: 0;
+    border-color: rgb(197, 5, 5);
+}
+
+.left {
+    background-color: white;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom-width: 2px;
+}
+
+.left {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.header {
+    border-bottom-width: 2px;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    margin: 0;
+}
+
+.svtHead {
+    display: flex;
+    height: 100%;
+    width: auto;
+}
+
+.logo {
+    width: 155px;
+}
+
+h2 {
+    font-size: 13px;
+    height: 10px;
+    margin: 0;
+    margin-left: 2px;
+    padding: 6px;
+    padding-top: 23px;
+    padding-bottom: 25px;
+}
+
+.red {
+    color: white;
+    background-color: rgb(197, 5, 5);
+}
+
+.whiteB {
+    border: 3px;
+    border-color: red;
+}
+
+.col24 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    Width: auto;
+}
+
+.latest {
+    height: 35px;   
+    background-color: black;
+    display: flex;
+    margin: auto;
+    Width: auto;
+}
+
+.main {
+    grid-row-start: 3;
+    grid-row-end: 6;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: white;
+    border-top-width: 2px;
+    margin-left: 0;
+    width: auto;
+}
+
+h1 {
+    font-size: 15px; 
+    margin: 0;
+    padding: 10px;
+}
+
+.whiteT {
+    background-color: black;
+    color: white;
+}
+
+img {
+    margin: 0;
+    max-width: 100%;
+}
+
+p { 
+    font-size: smaller;
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+.right1 {
+    grid-row-start: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.right2 {
+    grid-row-start: 4;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.right3 {
+    grid-row-start: 5;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+aside h2 {
+    margin: 0;
+    padding: 10px;
+}
+
+.underline {
+    padding: 10px;
+    margin: 0px;
+    border: solid;
+    border-width: 0;
+    border-bottom-width: 0.5px;
+    border-color: rgb(201, 200, 200);
+}
+
+.big {
+    font-size: 30px;
+    font-weight: 790;
+    padding-bottom: 0px;
+}
+
+.img_small {
+    float: left;
+    margin: 10px;
+    width: 130px;
+}
+
+.main h2 {
+    padding: 10px;
+    font-size: 20px;
+}
+
+.main p {
+    margin: 0;
+    padding: 12px;
+}
+
+.right3 h2 {
+    padding-top: 0px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
